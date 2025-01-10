@@ -1,0 +1,296 @@
+/* Import the custom fonts */
+@font-face {
+  font-family: Rubik-Bold;
+  src: url('./assets/fonts/Rubik-Bold.ttf');
+}
+.Rubik-Bold {
+  font-family: Rubik-Bold;
+}
+
+@font-face {
+  font-family: Rubik-ExtraBold;
+  src: url('./assets/fonts/Rubik-ExtraBold.ttf');
+}
+.Rubik-ExtraBold {
+  font-family: Rubik-ExtraBold;
+}
+
+@font-face {
+  font-family: YsabeauSC;
+  src: url('./assets/fonts/YsabeauSC-Light.ttf');
+}
+.YsabeauSc {
+  font-family: "roboto";
+  color: rgb(8, 8, 1);
+}
+
+@font-face {
+  font-family: Rubik-Light;
+  src: url('./assets/fonts/Rubik-Light.ttf');
+}
+.Rubik-Light {
+  font-family: Rubik-Light;
+}
+
+@font-face {
+  font-family: Rubik-Medium;
+  src: url('./assets/fonts/Rubik-Medium.ttf');
+}
+.Rubik-Medium {
+  font-family: Rubik-Medium;
+}
+
+@font-face {
+  font-family: Source-Code-ExtraBold;
+  src: url('./assets/fonts/SourceCodePro-ExtraBold.ttf');
+}
+.Source-Code-ExtraBold {
+  font-family: Source-Code-ExtraBold;
+}
+
+@font-face {
+  font-family: playwrite;
+  src: url('./assets/fonts/PlaywriteFRTradGuides-Regular.ttf');
+}
+.playwrite {
+  font-family: playwrite;
+}
+
+@font-face {
+  font-family: dancing;
+  src: url('./assets/fonts/DancingScript-Bold.ttf');
+}
+.dancing {
+  font-family: dancing;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+  background: black;
+}
+
+.sec {
+  background: #fdfeff;
+}
+
+/* Typing animation */
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15ch; /* Adjust based on the length of your slogan */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.animated-slogan {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid gray; /* Cursor effect */
+  font-family: 'Dancing', cursive; /* Use your desired font */
+  
+  animation: typing 1.5s steps(15, end), blink 0.5s step-end infinite; /* Adjust steps based on length */
+  width: 15ch; /* Matches the 'to' value in @keyframes typing */
+}
+
+.nurl {
+  text-decoration: none; /* Removes the underline */
+}
+
+.url:hover {
+  text-decoration: underline; /* Adds underline on hover */
+  text-decoration-color: black; /* Sets the underline color to black */
+}
+
+.unl {
+  text-decoration: underline;
+  text-decoration-thickness: 5px; /* Optional: Adjust the thickness of the underline */
+  text-decoration-color: rgb(107, 220, 152); /* Optional: Customize the color */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start from off-screen to the left */
+  }
+  100% {
+    transform: translateX(0); /* End at the normal position */
+  }
+}
+
+.slide-left {
+  animation: slideInFromLeft 0.3s ease-out; /* Adjust timing and easing as needed */
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply Animations */
+.animate-slide-left {
+  animation: slideLeft 0.6s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideRight 0.6s ease-out forwards;
+  animation-delay: 0.3s; /* Delayed animation for Vision box */
+}
+
+
+/* Keyframes for infinite scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Scroll container to hide overflow */
+.scroll-container {
+  display: flex;
+  overflow: hidden; /* Hides content that goes outside the container */
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  padding: 10px 0;
+}
+
+/* Scrollable content with animation */
+.scroll-content {
+  display: flex;
+  animation: scroll 20s linear infinite; /* Adjust speed with duration */
+}
+
+/* Each logo item */
+.scroll-item {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between logos */
+  height: 50px; /* Adjust logo size */
+  object-fit: contain;
+}
+
+.btn {
+  @apply bg-black px-5 py-2 font-bold border-2 border-gray-300 rounded-full shadow-lg shadow-cyan-500/50 ;
+}
+/* Container for the entire step process */
+.step-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Vertical line container */
+.line-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Continuous Vertical Line */
+.vertical-line {
+  width: 5px;
+  height: 100%;
+  background-color: #d1d5db; /* Tailwind gray-500 */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+/* Progress Line */
+.progress-line {
+  width: 5px;
+  background-color: #22c55e; /* Tailwind green-500 */
+  position: absolute;
+  bottom: 0;
+  transition: height 0.2s ease-out;
+}
+
+/* Steps content container */
+.steps-content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  gap: 60px;
+}
+
+/* Individual step item */
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Bubble for step numbers */
+.step-bubble {
+  width: 40px;
+  height: 40px;
+  background-color: #22c55e; /* Tailwind green-500 */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Description for the step */
+.step-description {
+  font-size: 18px;
+  color: #333;
+  max-width: 300px;
+  z-index: 2;
+}
+
+/* Zigzag positioning for steps */
+.step-left {
+  align-self: flex-start;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.step-right {
+  align-self: flex-end;
+  text-align: left;
+}

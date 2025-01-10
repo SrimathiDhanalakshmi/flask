@@ -1,0 +1,74 @@
+Keratoconus  
+
+Definition  
+Keratoconus is a progressive, non-inflammatory, bilateral (85%) ectatic condition of the cornea, predominantly affecting its axial region. It is considered a developmental, degenerative, hereditary condition often linked to endocrine anomalies.  
+
+---
+
+Symptoms  
+- Defective vision due to **progressive myopia** and **irregular astigmatism**  
+- Distorted images with glare  
+- Halos around lights  
+- Light sensitivity  
+- Ocular irritation and itching  
+
+---
+
+ Risk Factors  
+- Eye rubbing, often associated with atopy  
+- Sleep apnea  
+- Floppy eyelid syndrome  
+
+---
+
+ Management  
+1. Preventive Measures  
+   - Avoid eye rubbing or applying pressure to the eyes (e.g., sleeping with a hand against the eye can worsen keratoconus).  
+   - Use preservative-free topical lubricants to reduce the impulse to rub the eyes.  
+   - Manage allergies with appropriate medications.  
+
+2. Vision Correction  
+   - Spectacles: Effective in early stages; may not correct vision in advanced cases due to irregular astigmatism.  
+   - Contact Lenses (CLs):  
+     - Soft CL  
+     - Rigid Gas-Permeable (RGP) lenses  
+     - Piggyback lenses  
+     - Hybrid lenses  
+     - Rose K lenses  
+     - Scleral lenses (critical for visual rehabilitation in advanced cases)  
+
+3. Surgical Options
+   - Corneal Collagen Cross-Linking (C3R)  
+   - Keratoplasty:  
+     - Deep Anterior Lamellar Keratoplasty (DALK)  
+     - Penetrating Keratoplasty (PK)  
+     - Lamellar Keratoplasty (LK)  
+   - Intra-corneal ring segment placement  
+
+4. Additional Measures  
+   - Use UV-protective contact lenses and glasses to safeguard the eyes.  
+
+
+
+Here’s a paragraphized summary of the uploaded documents for better readability and RAG application:  
+
+---
+
+Myopia
+
+Myopia, commonly known as shortsightedness, occurs when parallel rays of light from a distance are focused in front of the retina with no accommodation. It is classified into axial (increased eyeball length), curvatural (increased corneal or lens curvature), and positional (anterior lens placement). Myopia may also result from excessive accommodation due to spasm. It is graded as low (≤ -3D), moderate (-3D to -6D), or high (≥ -6D). Clinical varieties include congenital, simple, degenerative, and acquired myopia, such as pseudomyopia or night myopia. Congenital myopia often presents by age 2-3 years, with associations like cataracts or retinal anomalies. Developmental myopia, often called school myopia, peaks at ages 8-12, primarily due to biological and environmental factors like excessive screen time and lack of outdoor activity. Degenerative myopia involves structural retinal and scleral changes, causing symptoms like defective vision, floaters, and night vision issues.  
+
+Management includes optical aids such as spectacles and contact lenses for early cases and therapeutic interventions like atropine drops for low myopia. Surgery (e.g., LASIK) is an option for advanced cases. Preventive strategies involve regular eye exams, reduced screen time, adequate lighting, and outdoor activity. Genetic counseling is advised for progressive myopia cases.  
+
+---
+
+Concomitant Strabismus
+
+Concomitant strabismus involves a consistent deviation of one eye in all gaze directions, with no ocular movement limitations. It results from obstacles in binocular vision development, categorized as sensory (e.g., refractive errors, macular diseases), motor (e.g., orbital abnormalities), or central (fusion faculty deficits). Types include convergent (inward deviation) and divergent (outward deviation) squint. Diagnosis involves history-taking, ocular movement exams, and sensory function tests. Treatment aims to enhance visual acuity and cosmetic appearance through spectacles, occlusion therapy, and surgical correction.  
+
+---
+
+Ways to Prevent Eye Problems
+
+Maintaining eye health requires regular exams and adherence to good practices. Reducing screen time by following the 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds) helps alleviate strain. Proper lighting, adequate hydration, and conscious blinking are essential. Eye exercises, outdoor activities, and UV protection safeguard against environmental stressors. A diet rich in vitamins (A, C, E), zinc, and omega-3 fatty acids supports visual health. Additionally, recognizing hereditary conditions, staying hydrated, and avoiding smoking contribute to long-term eye care.  
+

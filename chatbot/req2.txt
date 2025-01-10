@@ -1,0 +1,9 @@
+Flask
+langchain
+langchain-groq
+langchain-huggingface
+langchain-chroma
+langchain-core
+langchain-text-splitters
+langgraph
+typing-extensions
